@@ -98,10 +98,38 @@ svg:not(:root) {
 }
 
 a:-webkit-any-link {
-    color: -webkit-link;
+    /* color: -webkit-link; */
     cursor: pointer;
 }
 
+.nav-font {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+.mine-name {
+    position: relative;
+}
+
+.mine-name::before {
+    content: '';
+    position: absolute;
+    width: 43%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.mine-name:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
 
 .img-side__main-img {
     border-radius: 1.7rem;
@@ -336,6 +364,7 @@ li {
     gap: 10rem;
     justify-content: center;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .content {
@@ -456,11 +485,8 @@ h4 {
     top: 0;
     width: 100%;
     background-color: #fff;
-    /* Adjust the background color as needed */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Optional: Add a shadow for a subtle effect */
     z-index: 1000;
-    /* Adjust the z-index to ensure the navbar appears above other elements */
 }
 
 .mobile-nav {
