@@ -5,28 +5,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
     --tw-scale-x: 1;
     --tw-scale-y: 1;
-    --tw-pan-x: ;
-    --tw-pan-y: ;
-    --tw-pinch-zoom: ;
     --tw-scroll-snap-strictness: proximity;
-    --tw-gradient-from-position: ;
-    --tw-gradient-via-position: ;
-    --tw-gradient-to-position: ;
-    --tw-ordinal: ;
-    --tw-slashed-zero: ;
-    --tw-numeric-figure: ;
-    --tw-numeric-spacing: ;
-    --tw-numeric-fraction: ;
-    --tw-ring-inset: ;
     --tw-ring-offset-width: 0px;
     --tw-ring-offset-color: #fff;
     --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -34,24 +15,136 @@
     --tw-ring-shadow: 0 0 #0000;
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
-    --tw-blur: ;
-    --tw-brightness: ;
-    --tw-contrast: ;
-    --tw-grayscale: ;
-    --tw-hue-rotate: ;
-    --tw-invert: ;
-    --tw-saturate: ;
-    --tw-sepia: ;
-    --tw-drop-shadow: ;
-    --tw-backdrop-blur: ;
-    --tw-backdrop-brightness: ;
-    --tw-backdrop-contrast: ;
-    --tw-backdrop-grayscale: ;
-    --tw-backdrop-hue-rotate: ;
-    --tw-backdrop-invert: ;
-    --tw-backdrop-opacity: ;
-    --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia: ;
+}
+
+@-webkit-keyframes morpha {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
+    }
+
+    to {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+    }
+}
+
+@keyframes morpha {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
+    }
+
+    to {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+    }
+}
+
+
+@-webkit-keyframes rotate {
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes rotate {
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+/* // Mdeia Query Starts */
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .hero-text img {
+        left: 300px;
+    }
+
+    .about {
+        margin-top: 190px;
+    }
+
+    .about-content {
+        margin: 0 -100px;
+        grid-template-columns: 41rem 39rem !important;
+    }
+
+    .img-side__main-img {
+        height: 32rem !important;
+        width: 38rem !important;
+    }
+
+    .img-side span {
+        right: 5px !important;
+    }
+
+    .work-emoji {
+        bottom: 40px !important;
+        right: 75px !important;
+    }
+
+    .text-side {
+        padding-right: -2.5rem !important;
+    }
+
+    .img-side span {
+        height: 16rem !important;
+        width: 16rem !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-text img {
+        right: 8rem !important;
+    }
+
+    .hero-text h1 {
+        font-size: 36px !important;
+        /* margin-left: 9rem !important; */
+        margin-right: -46px !important;
+    }
+
+    .hero-img {
+        width: 38rem !important;
+        height: 32rem !important;
+        animation: morpha 4s ease-in-out infinite !important;
+    }
+
+    .hero-text img {
+        height: 4rem !important;
+        right: 156px !important;
+        top: 66px !important;
+        width: 4rem !important;
+    }
+    .skills{
+        left: 0 !important;
+    }
+}
+
+/* // Media query end */
+
+.projects-grid .pro__img {
+    background-color: hsla(0, 0%, 46%, .2);
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    height: auto;
+    overflow: hidden;
+    width: 53rem
+}
+
+.img-side span img {
+    -webkit-animation: rotate 9s linear infinite;
+    animation: rotate 9s linear infinite;
+    width: 19rem
 }
 
 body {
@@ -413,6 +506,7 @@ section {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 53rem 45rem; */
     justify-content: center;
 }
 
