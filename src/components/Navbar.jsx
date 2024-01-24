@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 
 function NavScrollExample() {
+
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
     const toggleMobileMenu = () => {
         setMobileMenuOpen(!isMobileMenuOpen);
     };
+    
 
     return (
         <>
@@ -13,9 +15,6 @@ function NavScrollExample() {
                 <h3 className='hover:text-emerald-400 cursor-pointer'  onClick={() => scroll.scrollToTop({ smooth: true})} duration={200} spy={true} offset={20} >Tahir.dev</h3>
                 <ul className="gap-4 flex justify-between items-center text-center ">
                     <li className="hidden lg:block hover:text-lime-600" ><a href="#" >Home</a></li>
-                    {/* <Link className="hidden lg:block hover:text-lime-400" to="about" smooth={true} duration={400} spy={true} offset={20}>
-                        About
-                    </Link> */}
                     <li className="hidden lg:block hover:text-lime-400"><a href="#">About</a></li>
                     <li className="hidden lg:block hover:text-lime-300"><a href="#">Projects</a></li>
                     <li className="hidden lg:block hover:text-lime-300"><a href="#">Contact</a></li>

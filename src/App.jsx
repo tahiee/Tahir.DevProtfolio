@@ -10,8 +10,9 @@ import NavScrollExample from "./components/Navbar"
 import aboutDesk from "./img/desk img.jpg"
 import Developerimg from "./img/developer.png"
 import FrontEndImg from "./img/fronendImg.svg"
-
-
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,6 @@ function App() {
     <>
       <html>
         <body>
-
           <NavScrollExample />
           <section id="home" className="hero">
             <div className="container">
@@ -28,7 +28,9 @@ function App() {
                 <div className="hero-main">
                   <div className="hero-text ">
                     <h1 className='mine-name cursor-pointer font-bold'>Front-End React Developer </h1>
-                    <img src={hand} alt="waving_hand" />
+                    <div className='hand-container"'>
+                    <img  className="waving-hand" src={hand} alt="waving_hand" />
+                    </div>
                     <p className='font-bold'>Hi, I'm Tahir Khan Niazi. A passionate Front-end React Developer based in Karachi, Pak. 📍</p>
                     <span>
                       <a className='hover:text-emerald-400' aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/m-tahir-khan-niazi-10730a1b4/">
@@ -83,8 +85,9 @@ function App() {
               </div>
             </div>
           </section>
-
-
+        <Projects/>
+        <Contact/>
+        <Footer/>
         </body>
       </html>
     </>

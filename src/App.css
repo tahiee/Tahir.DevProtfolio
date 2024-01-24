@@ -60,6 +60,34 @@
     }
 }
 
+.hand-container {
+    position: relative;
+}
+
+.waving-hand {
+    animation: wave 3s infinite;
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        transform: rotate(30deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+}
+
 /* // Mdeia Query Starts */
 
 
@@ -125,7 +153,8 @@
         top: 66px !important;
         width: 4rem !important;
     }
-    .skills{
+
+    .skills {
         left: 0 !important;
     }
 }
@@ -284,8 +313,9 @@ p {
 .hero-text img {
     height: 6rem;
     position: absolute;
-    right: 21rem;
-    top: 7.7rem;
+    right: 38rem;
+    left: 24rem;
+    top: 5.7rem;
     width: 6rem;
 }
 
