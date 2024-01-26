@@ -176,12 +176,6 @@
     width: 19rem
 }
 
-body {
-    background-color: #fff;
-    font-family: Poppins, sans-serif;
-    position: relative;
-}
-
 html {
     font-size: 80%;
     scroll-behavior: smooth;
@@ -451,7 +445,7 @@ li {
 
 .hero-img {
     animation: morpha 8s ease-in-out infinite;
-    background-image: url(./img/hero-banner-tahir.png);
+    background-image: url(../img/hero-banner-tahir.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
