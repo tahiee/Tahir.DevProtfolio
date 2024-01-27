@@ -90,6 +90,11 @@
 
 /* // Mdeia Query Starts */
 
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 107rem;
+    }
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
     .hero-text img {
@@ -127,7 +132,6 @@
         height: 16rem !important;
         width: 16rem !important;
     }
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -205,60 +209,74 @@
         height: auto !important;
         text-align: center !important;
     }
+
     .hero {
         height: auto !important;
         padding: 11rem 0 !important;
     }
+
     .content {
         flex-direction: column !important;
         gap: 3rem !important;
         height: auto !important;
         text-align: center !important;
     }
-    .hero-img{
+
+    .hero-img {
         width: 30rem !important;
     }
-    .hero-text h1{
+
+    .hero-text h1 {
         font-size: 3.5rem !important;
     }
+
     .hero-text img {
         left: 26rem !important;
         top: 4.5rem !important;
     }
+
     .hero-text p {
         margin-bottom: 5rem !important;
     }
+
     .hero-text span {
         gap: 1.6rem !important;
         justify-content: center !important;
         margin-bottom: 4rem !important;
         margin-top: -2rem !important;
     }
+
     .skills {
         flex-direction: column !important;
         position: static !important;
     }
+
     .skills p {
-        border-bottom: 2px solid rgba(45,46,50,.5) !important;
+        border-bottom: 2px solid rgba(45, 46, 50, .5) !important;
         border-right: none !important;
         margin-bottom: 3rem !important;
         margin-right: 0 !important;
         padding-bottom: 1rem !important;
         padding-right: 0 !important;
     }
+
     .skills ul {
         justify-content: center !important;
     }
+
     .about {
         padding: 8rem 0 !important;
     }
+
     .about-content {
         grid-template-columns: 1fr !important;
         text-align: center !important;
     }
+
     .work-emoji {
         display: none;
     }
+
     .img-side__main-img {
         margin-bottom: 3.5rem;
         display: flex;
@@ -267,18 +285,22 @@
         height: 29rem !important;
         width: 38rem !important;
     }
-    .img-side span img{
+
+    .img-side span img {
         display: none;
     }
-    .img-side span{
+
+    .img-side span {
         display: none;
     }
+
     .mine-name::before {
         width: 61% !important;
         height: 5px !important;
         left: 89px !important;
     }
-    .text-side h4{
+
+    .text-side h4 {
         font-size: 27px !important;
     }
 }
@@ -715,6 +737,7 @@ h4 {
     font-size: 2.3rem;
     gap: 4rem;
     list-style: none;
+    margin-top: 120px;
 }
 
 .mobile-nav span:hover {
@@ -794,4 +817,16 @@ h4 {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.open-menu {
+    display: block;
+}
+
+.closed-menu {
+    display: none;
 }
