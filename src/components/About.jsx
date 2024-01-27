@@ -1,13 +1,13 @@
 import React from 'react'
+import './App.css'
 import aboutDesk from "../img/desk img.jpg"
 import Developerimg from "../img/developer.png"
 import FrontEndImg from "../img/fronendImg.svg"
-import './App.css'
 
 const About = () => {
     return (
         <section className="about" id="about">
-        <div className="container">
+        <div className="containers">
             <div className="about-content">
                 <div className="img-side">
                     <img src={Developerimg} alt="emoji" className="work-emoji" />

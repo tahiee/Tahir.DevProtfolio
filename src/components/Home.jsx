@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <>
             <section id="home" className="hero">
-                <div className="container">
+                <div className="containers">
                     <div className="content">
                         <div className="hero-main">
                             <div className="hero-text ">
