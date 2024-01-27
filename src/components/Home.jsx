@@ -1,6 +1,6 @@
 import React from 'react'
-import { useState } from 'react'
 import './App.css'
+import { useState } from 'react'
 import htmlicon from "../img/html-icon.webp"
 import cssicon from "../img/css.png"
 import jsicon from "../img/js.png"

@@ -2,6 +2,7 @@ import React from 'react'
 import aboutDesk from "../img/desk img.jpg"
 import Developerimg from "../img/developer.png"
 import FrontEndImg from "../img/fronendImg.svg"
+import './App.css'
 
 const About = () => {
     return (

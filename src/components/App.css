@@ -90,13 +90,13 @@
 
 /* // Mdeia Query Starts */
 
-@media only screen and (min-width: 1280px) {
+/* @media only screen and (max-width: 1999px) {
     .container {
-        max-width: 107rem;
+        max-width: 156rem !important;
     }
-}
+} */
 
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1380px) {
     .hero-text img {
         left: 300px;
     }
@@ -639,12 +639,6 @@ li {
     position: relative;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 107rem;
-    padding: 0 4rem;
-}
-
 .home {
     background-color: #f9f9f9;
     display: flex;
@@ -829,4 +823,9 @@ h4 {
 
 .closed-menu {
     display: none;
+}
+.container {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 import './contact.css'
+
 const Contact = () => {
     return (
         <>
             <section id="contact" class="contact" className='pt-[11rem] pb-[11rem]'>
-                <div class="container">
+                <div className="container">
                     <div class="contact__content">
                         <div class="contact__title">
                             <p>contact</p>
