@@ -101,6 +101,10 @@
         left: 300px;
     }
 
+    .container {
+        max-width: 107rem !important;
+    }
+
     .about {
         margin-top: 190px;
     }
@@ -138,7 +142,9 @@
     .hero-text img {
         right: 8rem !important;
     }
-
+    .container {
+        max-width: 107rem !important;
+    }
     .hero-text h1 {
         font-size: 36px !important;
         /* margin-left: 9rem !important; */
@@ -209,7 +215,9 @@
         height: auto !important;
         text-align: center !important;
     }
-
+    .container {
+        max-width: 107rem !important;
+    }
     .hero {
         height: auto !important;
         padding: 11rem 0 !important;
@@ -824,6 +832,7 @@ h4 {
 .closed-menu {
     display: none;
 }
+
 .container {
     margin: 0 auto;
     max-width: 107rem;
