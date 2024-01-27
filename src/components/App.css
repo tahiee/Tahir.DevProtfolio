@@ -215,8 +215,15 @@
         height: auto !important;
         text-align: center !important;
     }
+    .hero-img{
+        width: 30rem !important;
+    }
+    .hero-text h1{
+        font-size: 3.5rem !important;
+    }
     .hero-text img {
-        left: 31rem !important;
+        left: 26rem !important;
+        top: 4.5rem !important;
     }
     .hero-text p {
         margin-bottom: 5rem !important;
