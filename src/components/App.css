@@ -619,7 +619,7 @@ li {
 
 .container {
     margin: 0 auto;
-    max-width: 107rem !important;
+    max-width: 107rem;
     padding: 0 4rem;
 }
 
@@ -647,7 +647,7 @@ section {
 
 .about {
     background-color: #fff;
-    padding: 15rem 0;
+    padding: 11.2rem 0;
 }
 
 .about-content {
