@@ -18,9 +18,6 @@ const Home = () => {
 
     return (
         <>
-            <html>
-                <body>
-                    
                     <section id="home" className="hero">
                         <div className="container">
                             <div className="content">
@@ -64,12 +61,10 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
-                    <About/>
+                    <About />
                     <Projects />
                     <Contact />
                     <Footer />
-                </body>
-            </html>
         </>
     )
 }
