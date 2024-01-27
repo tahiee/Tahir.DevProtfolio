@@ -19,7 +19,9 @@ const About = () => {
                     <h3>About me</h3>
                     <h4>A dedicated Front-end Developer <br /> based in Karachi, Pakistan 📍</h4>
                     <p>
-                        As a Beginner/Junior Front-End Developer, I am also a Student at SMIT. I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, and Tailwind. I excel in designing and maintaining responsive websites that offer a smooth user experience.
+                        Hey, My name is Tahir, and as a Beginner/Junior Front-End Developer, I am also a Student at SMIT. I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, and Tailwind.
+                        <br /><br />
+                        My main Stack currently is React/Next.js.
                     </p>
                 </div>
             </div>

@@ -266,8 +266,15 @@
     .img-side span{
         display: none;
     }
+    .mine-name::before {
+        width: 61% !important;
+        height: 5px !important;
+        left: 89px !important;
+    }
+    .text-side h4{
+        font-size: 27px !important;
+    }
 }
-
 
 /* // Media query end */
 
