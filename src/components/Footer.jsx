@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <footer class="bg-gray-800 py-20">
                 <div className="containers mx-auto">
-                    <div class="flex items-center justify-between">
+                    <div class="footerc flex items-center justify-between">
                         <h3 class="text-white text-lg">Copyright © 2024. All rights are reserved</h3>
                         <div class="flex items-center gap-8 mt-4">
                             <a aria-label="linkedin" href="https://www.linkedin.com/in/m-tahir-khan-niazi-10730a1b4/" target="_blank" rel="noreferrer">

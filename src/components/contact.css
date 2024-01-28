@@ -9,7 +9,7 @@ section {
 .containers {
     margin: 0 auto;
     max-width: 100%;
-    padding: 0 8rem;
+    padding: 0 4rem;
     font-weight: 600
 }
 .contact__content {
