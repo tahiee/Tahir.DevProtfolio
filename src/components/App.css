@@ -251,7 +251,7 @@
         right: 4rem !important;
         top: 4.4rem !important;
         width: 4.5rem !important;
-        left: 23rem !important;
+        left: 21rem !important;
     }
     .hero-text p{
         font-size: 1.3rem !important;
@@ -281,8 +281,8 @@
     }
     .mine-name:hover::before {
         height: 4px !important;
-        left: 100px !important;
-        width: 49% !important;
+        left: 64px !important;
+        width: 58% !important;
     }
     
     
