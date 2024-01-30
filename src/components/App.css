@@ -17,7 +17,6 @@
     --tw-shadow-colored: 0 0 #0000;
 }
 
-
 @-webkit-keyframes morpha {
     0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
@@ -245,8 +244,8 @@
 
 @media only screen and (max-width: 500px) {
     .hero-img {
-        height: 25rem !important;
-        width: 23rem !important;
+        height: 23rem !important;
+        width: 20rem !important;
     }
 
     .hero-text h1 {
@@ -601,8 +600,24 @@ li {
     position: relative;
     overflow: hidden;
     width: 26rem;
-}
 
+    /* Add the following styles */
+    --s: 250px;   /* the size of the image */
+    --b: 10px;     /* the border thickness*/
+    --g: 1px;    /* the gap */
+    --c: #A7F3D0; /* the color */
+
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: .3s;
+}
+.hero-img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
 .hero-img::before {
     content: '';
     position: absolute;
@@ -832,3 +847,4 @@ h4 {
     max-width: 100%;
     padding: 0 4rem;
 }
+
