@@ -428,8 +428,8 @@ a:-webkit-any-link {
     font-size: 1.7rem;
     font-weight: 500;
     line-height: 1.5;
-    max-width: 90%;
-    max-height: 422px;
+    /* max-width: 90%;
+    max-height: 422px; */
 }
 
 p {
