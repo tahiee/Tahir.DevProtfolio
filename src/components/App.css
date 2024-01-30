@@ -126,7 +126,7 @@
         max-width: 54rem !important;
     }
 
-    .project {
+    .projects {
         padding: 8rem 0 !important;
     }
 
@@ -291,7 +291,7 @@
         font-size: 1.2rem !important;
     }
 
-    .project-text {
+    .projects-text {
         font-size: 30px !important;
     }
 
@@ -306,15 +306,18 @@
 
 /* // Media query end */
 
-
-.projects-grid .pro__img {
-    background-color: hsla(0, 0%, 46%, .2);
-    border-radius: 1.7rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    height: auto;
-    overflow: hidden;
-    width: 53rem
+/* // project section */
+.project {
+    background-color: #f9f9f9;
+    padding: 15rem 0;
 }
+.new-projects {
+    color: #2d2e32;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+/* // project section end */
 
 .img-side span img {
     -webkit-animation: rotate 9s linear infinite;
@@ -603,10 +606,14 @@ li {
     width: 26rem;
 
     /* Add the following styles */
-    --s: 256px;   /* the size of the image */
-    --b: 10px;     /* the border thickness*/
-    --g: 1px;    /* the gap */
-    --c: #A7F3D0; /* the color */
+    --s: 256px;
+    /* the size of the image */
+    --b: 10px;
+    /* the border thickness*/
+    --g: 1px;
+    /* the gap */
+    --c: #A7F3D0;
+    /* the color */
 
     width: var(--s);
     aspect-ratio: 1;
@@ -615,10 +622,12 @@ li {
     cursor: pointer;
     transition: .3s;
 }
+
 .hero-img:hover {
     outline: var(--b) solid var(--c);
     outline-offset: var(--g);
 }
+
 .hero-img::before {
     content: '';
     position: absolute;
@@ -848,4 +857,3 @@ h4 {
     max-width: 100%;
     padding: 0 4rem;
 }
-

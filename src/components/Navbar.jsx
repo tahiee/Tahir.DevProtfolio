@@ -49,12 +49,12 @@ function NavScrollExample() {
             <nav className={`your-navbar-class flex justify-between items-center text-center h-auto z-200 text-2xl leading-10 px-14 py-9 w-full top-0 left-0 nav-font  ${isMobileMenuOpen ? 'bg-emerald-200 text-black' : ''} ${scrolling ? 'bg-emerald-200 text-black' : ''
                 }`} >
                 <h3 className='hover:text-emerald-400 cursor-pointer' onClick={() => scroll.scrollToTop({ smooth: true })} duration={200} spy={true} offset={20}>Tahir.dev</h3>
-
+                {/* //  is just remove here to toggleMobileMenu(); */}
                 <ul className="gap-4 flex justify-between items-center text-center ">
-                    <li className="hidden lg:block cursor-pointer hover:text-emerald-400" onClick={() => { toggleMobileMenu(); gotoHome(); }}>Home</li>
-                    <li className="hidden lg:block cursor-pointer hover:text-emerald-400" onClick={() => { toggleMobileMenu(); gotoAbout(); }}>About</li>
-                    <li className="hidden lg:block cursor-pointer hover:text-emerald-400" onClick={() => { toggleMobileMenu(); gotoProjects(); }}>Projects</li>
-                    <li className="hidden lg:block cursor-pointer hover:text-emerald-400" onClick={() => { toggleMobileMenu(); gotoContact(); }}>Contact</li>
+                    <li className="hidden lg:block cursor-pointer hover:text-emerald-400" onClick={() => { gotoHome() }}>Home</li>
+                    <li className="hidden lg:block cursor-pointer hover:text-emerald-400" onClick={() => { gotoAbout(); }}>About</li>
+                    <li className="hidden lg:block cursor-pointer hover:text-emerald-400" onClick={() => { gotoProjects(); }}>Projects</li>
+                    <li className="hidden lg:block cursor-pointer hover:text-emerald-400" onClick={() => { gotoContact(); }}>Contact</li>
                     <li className="lg:hidden" onClick={toggleMobileMenu}>
                         {isMobileMenuOpen ? (
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-x">
