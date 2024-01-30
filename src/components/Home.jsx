@@ -26,7 +26,7 @@ const Home = () => {
                                 <div className='hand-container"'>
                                     <img className="waving-hand" src={hand} alt="waving_hand" />
                                 </div>
-                                <p className='font-bold'>Hi, I'm Tahir Khan Niazi. A passionate Front-end React Developer based in Karachi, Pak. 📍</p>
+                                <p className='font-bold'>Hi, I'm Tahir Khan Niazi. A passionate Front-End React Developer based in Karachi, Pak. 📍</p>
                                 <span>
                                     <a className='hover:text-emerald-400' aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/m-tahir-khan-niazi-10730a1b4/">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-linkedin">

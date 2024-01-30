@@ -602,7 +602,7 @@ li {
     width: 26rem;
 
     /* Add the following styles */
-    --s: 250px;   /* the size of the image */
+    --s: 256px;   /* the size of the image */
     --b: 10px;     /* the border thickness*/
     --g: 1px;    /* the gap */
     --c: #A7F3D0; /* the color */
