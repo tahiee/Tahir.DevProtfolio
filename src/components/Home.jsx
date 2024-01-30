@@ -11,6 +11,7 @@ import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import About from './About'
+import LikeButton from './LikeButton'
 
 const Home = () => {
     const [count, setCount] = useState(0)
