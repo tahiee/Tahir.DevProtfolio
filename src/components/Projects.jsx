@@ -24,9 +24,9 @@ const projects = () => {
 
                 <div className="project-info">
                     {/* Project Title and Description */}
-                    <h3 className="text-2xl font-bold mb-4">TodoApp</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-[22px] mt-[12px]">TodoApp</h3>
                     <p className="text-lg mb-4">
-                        A simple Todo App built using React.
+                        A simple Todo App built using React - Material-UI - Firebase
                     </p>
 
                     {/* View Project Link */}
