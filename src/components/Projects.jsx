@@ -42,7 +42,7 @@ const Projects = () => {
                         </a>
                     </div>
                     <div className='flex justify-center items-center text-center mt-[2px]' >
-                        <Slider className='w-[500px] h-[500px]' {...sliderSettings}>
+                        <Slider className=''{...sliderSettings}>
                             <div>
                                 <img className='' src={img1} alt="Image 1" />
                             </div>

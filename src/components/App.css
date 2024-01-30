@@ -882,18 +882,18 @@ h4 {
 }
 
 .slick-dots {
-    bottom: 222px !important;
+    bottom: -15px !important;
 }
 
 .slick-slider {
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
 }
 
 .slick-prev:before,
 .slick-next:before {
-    color: red !important;
+    color: #147efb !important;
 }
 .slick-prev, .slick-next {
-    top: 130px !important;
+    top: 150px !important;
 }
