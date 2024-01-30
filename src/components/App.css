@@ -314,7 +314,9 @@
         width: 300px !important;
         height: 210px !important;
     }
-
+    .slick-prev, .slick-next {
+        top: 80px !important;
+    }
 }
 
 /* // Media query end */
@@ -895,5 +897,5 @@ h4 {
     color: #147efb !important;
 }
 .slick-prev, .slick-next {
-    top: 150px !important;
+    top: 150px;
 }
