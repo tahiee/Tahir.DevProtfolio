@@ -301,6 +301,19 @@
         width: 58% !important;
     }
 
+    .slider-image {
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    .slick-dots {
+        top: 160px !important;
+    }
+
+    .slick-slider {
+        width: 300px !important;
+        height: 210px !important;
+    }
 
 }
 
@@ -309,10 +322,11 @@
 /* // project section */
 .project {
     background-color: #f9f9f9;
-    padding: 15rem 0;
+    padding: 10rem 0;
 }
+
 .new-projects {
-    color: #2d2e32;
+    color: #147efb;
     font-size: 2.6rem;
     text-align: center;
 }
@@ -858,4 +872,28 @@ h4 {
     margin: 0 auto;
     max-width: 100%;
     padding: 0 4rem;
+}
+
+/* /// */
+.slider-image {
+    height: 500px;
+    width: 400px;
+    background-color: black;
+}
+
+.slick-dots {
+    bottom: 222px !important;
+}
+
+.slick-slider {
+    width: 500px;
+    height: 400px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: red !important;
+}
+.slick-prev, .slick-next {
+    top: 130px !important;
 }
