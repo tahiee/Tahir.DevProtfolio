@@ -126,9 +126,11 @@
         margin: 0 auto !important;
         max-width: 54rem !important;
     }
+
     .project {
         padding: 8rem 0 !important;
     }
+
     .contact {
         padding: 8rem 0 !important;
     }
@@ -221,19 +223,22 @@
     .hero-text img {
         left: 31rem !important;
     }
+
     .contact__title {
         text-align: center !important;
     }
+
     .contact__icons {
         flex-direction: column !important;
         gap: 5rem !important;
         justify-content: center !important;
         text-align: center !important;
     }
+
     .contact__icon-box {
         flex-direction: column !important;
     }
-    
+
 }
 
 /* @media only screen and (max-width: 600px) {} */
@@ -243,9 +248,11 @@
         height: 25rem !important;
         width: 23rem !important;
     }
+
     .hero-text h1 {
         font-size: 3rem !important;
     }
+
     .hero-text img {
         height: 4.5rem !important;
         right: 4rem !important;
@@ -253,42 +260,52 @@
         width: 4.5rem !important;
         left: 21rem !important;
     }
-    .hero-text p{
+
+    .hero-text p {
         font-size: 1.3rem !important;
-    }.footerc {
+    }
+
+    .footerc {
         flex-wrap: wrap !important;
         gap: 2rem !important;
         justify-content: center !important;
         text-align: center !important;
     }
 }
+
 @media only screen and (max-width: 460px) {
     .containers {
         padding: 0 1.7rem !important;
     }
+
     .img-side__main-img {
         height: auto !important;
         width: 90% !important;
     }
-    .text-side h4{
-        font-size: 1.6rem !important; 
+
+    .text-side h4 {
+        font-size: 1.6rem !important;
     }
-    .text-side p{
-        font-size: 1.2rem !important; 
+
+    .text-side p {
+        font-size: 1.2rem !important;
     }
-    .project-text{
+
+    .project-text {
         font-size: 30px !important;
     }
+
     .mine-name:hover::before {
         height: 4px !important;
         left: 64px !important;
         width: 58% !important;
     }
-    
-    
+
+
 }
 
 /* // Media query end */
+
 
 .projects-grid .pro__img {
     background-color: hsla(0, 0%, 46%, .2);
@@ -526,7 +543,7 @@ li {
     justify-content: center;
     align-items: center;
     height: 4rem;
-    transition: all .3s ease-in-out;
+    transition: all .1s ease-in-out;
     width: 4rem;
 }
 
@@ -573,17 +590,17 @@ li {
 }
 
 .hero-img {
-    animation: morpha 8s ease-in-out infinite;
+    animation: morpha 5s ease-in-out infinite;
     background-image: url(../img/hero-banner-tahir.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid #2d2e32;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    height: 35rem;
+    height: 32rem;
     position: relative;
     overflow: hidden;
-    width: 35rem;
+    width: 26rem;
 }
 
 .hero-img::before {
@@ -607,7 +624,7 @@ li {
 .hero-main {
     align-items: center;
     display: flex;
-    gap: 10rem;
+    gap: 5rem;
     justify-content: center;
     position: relative;
     margin-bottom: 50px;
@@ -617,7 +634,7 @@ li {
     align-items: center;
     display: flex;
     gap: 10rem;
-    height: 65rem;
+    height: 60rem;
     justify-content: center;
     position: relative;
 }

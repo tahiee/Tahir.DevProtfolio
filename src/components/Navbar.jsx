@@ -31,6 +31,7 @@ function NavScrollExample() {
         <>
             <nav className="your-navbar-class flex justify-between items-center text-center h-auto z-200 text-2xl leading-10 px-14 py-9 w-full top-0 left-0 nav-font">
                 <h3 className='hover:text-emerald-400 cursor-pointer' onClick={() => scroll.scrollToTop({ smooth: true })} duration={200} spy={true} offset={20}>Tahir.dev</h3>
+        
                 <ul className="gap-4 flex justify-between items-center text-center ">
                     <li className="hidden lg:block hover:text-lime-600" onClick={gotoHome}>Home</li>
                     <li className="hidden lg:block hover:text-lime-400" onClick={gotoAbout}>About</li>
