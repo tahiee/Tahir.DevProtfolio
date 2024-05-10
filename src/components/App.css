@@ -945,6 +945,7 @@ h4 {
     height: 5em;
     line-height: 5em;
     width: 10em;
+    transition: all 0.3s ease-out;
     background: #3e434b;
     color: #fdfdfd;
     text-align: center;
