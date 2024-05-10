@@ -220,11 +220,13 @@
 }
 
 @media only screen and (max-width: 750px) {
-    .main-parent {
-        flex-direction: column; /* Change to row */
-    }
-
-    .work-emoji {
+  .main-parent {
+    flex-direction: column; /* Change to row */
+  }
+  .text-side {
+    padding-right: 1.5rem !important;
+  }
+  .work-emoji {
     display: none !important;
   }
 
@@ -943,71 +945,70 @@ h4 {
 
 /* Customise */
 .bg-emerald-200 {
-    background: transparent !important;
+  background: transparent !important;
 }
 .blocks {
-    height: 5em;
-    line-height: 5em;
-    width: 10em;
-    transition: all 0.3s ease-out;
-    background: #3e434b;
-    color: #fdfdfd;
-    text-align: center;
+  height: 5em;
+  line-height: 5em;
+  width: 10em;
+  transition: all 0.3s ease-out;
+  background: #3e434b;
+  color: #fdfdfd;
+  text-align: center;
 }
 @keyframes bounceIn {
-    0% {
-        opacity: 0;
-        transform: scale(0.3);
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
   }
   50% {
-      transform: scale(1.05);
-    }
+    transform: scale(1.05);
+  }
   70% {
-      transform: scale(0.9);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 .leading-10 {
   line-height: 1.5rem !important;
 }
 .py-20 {
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
 }
-.button-85 a{
-    color: #50ac80 !important;
-
+.button-85 a {
+  color: #50ac80 !important;
 }
-.button-85{
-    padding: 0.6em 2em !important;
-    border: none;
-    outline: none;
-    background: #4a4343;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+.button-85 {
+  padding: 0.6em 2em !important;
+  border: none;
+  outline: none;
+  background: #4a4343;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
-.button-85:hover a{
-    color: black !important;
+.button-85:hover a {
+  color: black !important;
 }
-.button-85:hover{
-    background: #73ba98;
+.button-85:hover {
+  background: #73ba98;
 }
 
 /* Customise */
-.main-parent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 90px;
+.main-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
 }
-.gap-4{
-    gap: 20px !important;
+.gap-4 {
+  gap: 20px !important;
 }
