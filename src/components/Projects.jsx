@@ -36,7 +36,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold mb-4 text-[22px] mt-[5px]">
                 Nest Mart & Grocery Store
               </h3>
-              <p className="text-lg mb-4">E-commerce Website</p>
+              <p className="text-lg mb-4 project-para">🛒 Nest Mart & Grocery is not just another ecommerce <br /> platform; it's a personalized shopping  experience designed  with you in mind.</p>
             </div>
             <div className="flex justify-center items-center text-center mt-[2px]">
               <Slider className="" {...sliderSettings}>
