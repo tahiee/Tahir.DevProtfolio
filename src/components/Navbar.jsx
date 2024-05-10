@@ -30,7 +30,7 @@ function NavScrollExample() {
   const [scrolling, setScrolling] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 40) {
+      if (window.scrollY > 70) {
         setScrolling(true);
       } else {
         setScrolling(false);
@@ -47,7 +47,7 @@ function NavScrollExample() {
   return (
     <>
       <nav
-        className={`your-navbar-class flex justify-between items-center text-center h-auto z-200 text-2xl leading-10 px-14 py-9 w-full top-0 left-0 nav-font  ${
+        className={`blocks animatable fadeInDown your-navbar-class flex justify-between items-center text-center h-auto z-200 text-2xl leading-10 px-14 py-9 w-full top-0 left-0 nav-font  ${
           isMobileMenuOpen ? "bg-emerald-200 text-black" : ""
         } ${scrolling ? "bg-emerald-200 text-black" : ""}`}
       >
@@ -151,8 +151,8 @@ function NavScrollExample() {
             stroke-linejoin="round"
             className="tabler-icon tabler-icon-x"
           >
-            <path d="M18 6l-12 12"></path>
-            <path d="M6 6l12 12"></path>
+            {/* <path d="M18 6l-12 12"></path> */}
+            {/* <path d="M6 6l12 12"></path> */}
           </svg>
         </span>
         <ul>
