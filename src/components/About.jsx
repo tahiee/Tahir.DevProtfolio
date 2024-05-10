@@ -18,9 +18,9 @@ const About = () => {
                 </div>
                 <div className="text-side">
                     <h3>About me</h3>
-                    <h4>A dedicated Front-end Developer <br /> based in Karachi, Pakistan 📍</h4>
+                    <h4>A dedicated FrontEnd Developer based in Karachi, Pakistan 📍</h4>
                     <p>
-                        Hey, My name is Tahir, As a Beginner / Junior Front-End Developer, I am also a Student at SMIT. I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Material-UI and Tailwind.
+                        Hey, My name is Tahir, As a Beginner / Junior Front-End Developer, <br /> I am also a Student at SMIT. I possess an impressive arsenal of skills <br /> in HTML, CSS, JavaScript, React, Material-UI and Tailwind.
                         <br /><br />
                         My main Stack currently is React/Next.js.
                     </p>
