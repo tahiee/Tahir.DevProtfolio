@@ -8,6 +8,8 @@ import img3 from "../img/Projects/todo-img/todo3.png";
 import "./App.css";
 
 const Projects = () => {
+  
+  
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -24,9 +26,7 @@ const Projects = () => {
       </div>
       <div className="flex justify-center items-center text-center mt-[12px]">
         <div className="project-card">
-          {/* Project information */}
           <div className="project-info">
-            {/* Project Title and Description */}
             <h3 className="text-2xl font-bold mb-4 text-[22px] mt-[5px]">
               TodoApp
             </h3>
