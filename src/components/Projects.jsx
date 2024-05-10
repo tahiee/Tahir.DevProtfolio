@@ -8,8 +8,6 @@ import img3 from "../img/Projects/todo-img/todo3.png";
 import "./App.css";
 
 const Projects = () => {
-  
-  
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -33,15 +31,6 @@ const Projects = () => {
             <p className="text-lg mb-4">
               A simple Todo App built using React - Material-UI - Firebase
             </p>
-            {/* View Project Link */}
-            <a
-              href="https://todoapp-react-lovat.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
-            >
-              View Project
-            </a>
           </div>
           <div className="flex justify-center items-center text-center mt-[2px]">
             <Slider className="" {...sliderSettings}>
@@ -54,8 +43,41 @@ const Projects = () => {
               <div>
                 <img src={img3} alt="Image 2" />
               </div>
+
               {/* Add more slides as needed */}
             </Slider>
+          </div>
+          {/* View Project Link */}
+          <div>
+            <button className="button-85"
+              style={{
+                marginTop: "20px",
+              }}
+            >
+              <a
+                href="https://todoapp-react-lovat.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
+              >
+                View App
+              </a>
+            </button>
+            <button className="button-85"
+              style={{
+                marginLeft:"10px"
+              }}
+            >
+              <a
+                href="https://github.com/tahiee/TodoApp-React-Firbase"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
+              >
+                GitHub
+              </a>
+            </button>
+            
           </div>
         </div>
       </div>
