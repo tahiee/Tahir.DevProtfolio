@@ -1,9 +1,9 @@
 *,
 ::before,
 ::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
   --tw-scroll-snap-strictness: proximity;
@@ -17,10 +17,10 @@
 }
 
 .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 .slick-arrow {
   display: none !important;
 }
@@ -98,7 +98,7 @@
 
 @media only screen and (min-width: 1020px) {
   #contacts {
-    height: 78vh;
+    height: 88vh;
   }
 }
 @media only screen and (max-width: 1020px) {
@@ -936,30 +936,40 @@ h4 {
 }
 
 /* end like button style */
+
+/* Customise */
 .bg-emerald-200 {
-  background: transparent !important;
+    background: transparent !important;
 }
 .blocks {
-  height: 5em;
-  line-height: 5em;
-  width: 10em;
-  background: #3e434b;
-  color: #fdfdfd;
-  text-align: center;
+    height: 5em;
+    line-height: 5em;
+    width: 10em;
+    background: #3e434b;
+    color: #fdfdfd;
+    text-align: center;
 }
 @keyframes bounceIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.3);
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
   }
   50% {
-    transform: scale(1.05);
-  }
+      transform: scale(1.05);
+    }
   70% {
-    transform: scale(0.9);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+      transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
+.leading-10 {
+  line-height: 1.5rem !important;
+}
+.py-20 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+/* Customise */
