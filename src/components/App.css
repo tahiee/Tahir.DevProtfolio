@@ -224,7 +224,7 @@
     flex-direction: column; /* Change to row */
   }
   .text-side {
-    padding-right: 1.5rem !important;
+    padding-right: 1.4rem !important;
   }
   .work-emoji {
     display: none !important;
@@ -435,7 +435,7 @@ a:-webkit-any-link {
 }
 
 .text-side {
-  padding-right: 13.4rem !important;
+  padding-right: 13.4rem;
 }
 
 .text-side h3 {
