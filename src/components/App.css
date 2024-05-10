@@ -941,3 +941,6 @@ h4 {
 }
 
 /* end like button style */
+.bg-emerald-200{
+    background: transparent !important;
+}
