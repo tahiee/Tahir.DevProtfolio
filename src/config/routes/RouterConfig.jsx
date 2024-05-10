@@ -5,6 +5,7 @@ import Contact from '../../components/Contact'
 import NavScrollExample from '../../components/Navbar'
 import Projects from '../../components/Projects'
 import About from '../../components/About'
+import Footer from '../../components/Footer'
 
 const RouterConfig = () => {
     return (
@@ -17,6 +18,7 @@ const RouterConfig = () => {
                     <Route path='contact' element={<Contact />} />
                     <Route path='projects' element={<Projects />} />
                 </Routes>
+                <Footer/>
             </BrowserRouter>
         </>
 

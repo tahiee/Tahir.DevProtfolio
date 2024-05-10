@@ -4,7 +4,7 @@ import './contact.css'
 const Contact = () => {
     return (
         <>
-            <section id="contact" class="contact" className='pt-[11rem] pb-[11rem]'>
+            <section id="contacts" class="contact" className='pt-[11rem] pb-[11rem]'>
                 <div className="containers">
                     <div class="contact__content">
                         <div class="contact__title">
@@ -31,7 +31,7 @@ const Contact = () => {
                                     <path d="M3 7l9 6l9 -6"></path></svg></span>
                                 <div class="contact__info">
                                     <h3>Mail</h3>
-                                    <a href="">Tahirkhanji007@gmail.com</a>
+                                    <a href="">tahirkhanji007@gmail.com</a>
                                 </div>
                             </div>
                             <div class="contact__icon-box">
@@ -40,7 +40,7 @@ const Contact = () => {
                                     <path d="M3 7l9 6l9 -6"></path></svg></span>
                                 <div class="contact__info">
                                     <h3>Whatsapp</h3>
-                                    <a href="https://wa.me/message/OS47LHV72MO5P1">+92-30520-9595-1</a>
+                                    <a href="https://wa.me/message/OS47LHV72MO5P1">+92-305209595-1</a>
                                 </div>
                             </div>
                         </div>

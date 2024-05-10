@@ -17,6 +17,9 @@
     --tw-shadow-colored: 0 0 #0000;
     font-family: 'Roboto', 'Oxygen','Open Sans', 'Helvetica Neue', sans-serif;
 }
+.slick-arrow{
+    display: none !important;
+}
 
 @-webkit-keyframes morpha {
     0% {
@@ -91,8 +94,14 @@
 
 /* // Mdeia Query Starts */
 
-@media only screen and (max-width: 1020px) {
 
+@media only screen and (min-width: 1020px) {
+    #contacts{
+        height: 78vh;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    
     .about {
         padding: 9rem 0 !important;
     }
