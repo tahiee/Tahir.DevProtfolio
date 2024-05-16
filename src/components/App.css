@@ -333,8 +333,9 @@
     top: 80px !important;
   }
   #demo-canvas {
-    top: 130px !important;
-    left: -80px !important;
+    top: -120px !important;
+    opacity: 0.2;
+    
   }
 }
 
