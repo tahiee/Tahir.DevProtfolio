@@ -15,7 +15,6 @@
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
 }
-
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -333,6 +332,10 @@
   .slick-next {
     top: 80px !important;
   }
+  #demo-canvas {
+    top: 130px !important;
+    left: -80px !important;
+  }
 }
 
 /* // Media query end */
@@ -535,6 +538,7 @@ div {
   font-size: 1.7rem;
   left: 100px;
   position: absolute;
+  z-index: 150; /* added a index for my canvas 101 */
 }
 
 .skills p {
@@ -636,7 +640,6 @@ li {
   position: relative;
   overflow: hidden;
   width: 26rem;
-
   /* Add the following styles */
   --s: 256px;
   /* the size of the image */
@@ -685,6 +688,7 @@ li {
   justify-content: center;
   position: relative;
   margin-bottom: 50px;
+  z-index: 200; /* added index to main and #demo-canvas 101 */
 }
 
 .content {
@@ -914,35 +918,6 @@ h4 {
 .slick-next {
   top: 150px;
 }
-
-/* like button style */
-.like-button-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.like-button {
-  background-color: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  padding: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.like-count {
-  font-size: 14px;
-  color: red;
-  margin-left: 4px;
-}
-
-.like-button:hover {
-  background-color: #f0f0f0;
-}
-
-/* end like button style */
-
 /* Customise */
 .bg-emerald-200 {
   background: transparent !important;
@@ -1012,3 +987,14 @@ h4 {
 .gap-4 {
   gap: 20px !important;
 }
+/* cursor home canvas starts */
+#demo-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 101 !important;
+  pointer-events: none; /* Allow interaction with elements behind */
+}
+/* cursor home canvas end */
