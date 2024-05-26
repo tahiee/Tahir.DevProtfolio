@@ -81,7 +81,6 @@ function NavScrollExample() {
           offset={20}
         >
           {/* Tahir.dev */}
-
           <AnimatePresence>
             {["T", "a", "h", "i", "r", ".", "D", "e", "v"].map(
               (letter, index) => (
