@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
+import { motion, AnimatePresence } from "framer-motion";
 import "./App.css";
 
 function NavScrollExample() {
@@ -44,6 +45,21 @@ function NavScrollExample() {
     };
   }, []);
 
+  const originalOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8,9,10];
+  const [order, setOrder] = useState(originalOrder);
+
+  const shuffleOrder = () => {
+    let shuffled = [...order];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    setOrder(shuffled);
+  };
+
+  const resetOrder = () => {
+    setOrder(originalOrder);
+  };
   return (
     <>
       <nav
@@ -52,20 +68,46 @@ function NavScrollExample() {
         } ${scrolling ? "bg-emerald-200 text-black" : ""}`}
       >
         <h3
-          className="hover:text-emerald-400 cursor-pointer"
-          onClick={() => scroll.scrollToTop({ smooth: true })}
+          className="hover:text-emerald-400 cursor-pointe cursorLinkr"
+          onClick={() =>
+            scroll.scrollToTop(
+              { smooth: true },
+              (onMouseOver = { shuffleOrder }),
+              (onMouseOut = { resetOrder })
+            )
+          }
           duration={200}
           spy={true}
           offset={20}
         >
-          Tahir.dev
+          {/* Tahir.dev */}
+
+          <AnimatePresence>
+            {["T", "a", "h", "i", "r", ".", "D", "e", "v"].map(
+              (letter, index) => (
+                <motion.div
+                  key={index}
+                  className="letter"
+                  initial={{ y: -20, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: 20, opacity: 0 }}
+                  transition={{ duration: 0.5 }}
+                  style={{ order: order[index] }}
+                >
+                  {letter}
+                </motion.div>
+              )
+            )}
+          </AnimatePresence>
         </h3>
         {/* //  is just remove here to toggleMobileMenu(); */}
         <ul className="gap-4 flex justify-between items-center text-center ">
           <li
-            className="hidden lg:block cursor-pointer hover:text-emerald-400"
+            className="hidden lg:block cursor-pointer hover:text-emerald-400 cursorLink"
             onClick={() => {
               gotoHome();
+              onMouseOver = { shuffleOrder };
+              onMouseOut = { resetOrder };
             }}
           >
             Home

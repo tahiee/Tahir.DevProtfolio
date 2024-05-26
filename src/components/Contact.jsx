@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import bca from "../img/contactbg.gif";
 
 const Contact = () => {
   return (

@@ -766,7 +766,7 @@ h3 {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 h4 {
@@ -999,3 +999,22 @@ h4 {
   pointer-events: none; /* Allow interaction with elements behind */
 }
 /* cursor home canvas end */
+
+/* navbar tahir.dev */
+.cursorLinkr {
+  transition: color .2s linear ;
+  z-index: 1 ;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: .2s linear ;
+}
+
+.letter {
+  transition: transform 0.5s ;
+  display: inline-block ;
+}
+/* navbar tahir.dev */
