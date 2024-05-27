@@ -1,9 +1,10 @@
 section {
   display: block;
 }
-
+#contacts{
+  background-color: #fff !important;
+}
 .contact {
-  background-color: #fff;
   padding: 11rem 0;
 }
 

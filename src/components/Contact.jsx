@@ -12,6 +12,8 @@ const Contact = () => {
               <p>contact</p>
               <h3>Don't be shy! Hit me up! 👇</h3>
             </div>
+
+                {/* icons */}
             <div class="contact__icons">
               <div class="contact__icon-box">
                 <span>
