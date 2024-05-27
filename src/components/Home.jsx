@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 import htmlicon from "../img/html-icon.webp";
 import cssicon from "../img/css.png";
@@ -199,7 +199,31 @@ const Home = () => {
   function getDistance(p1, p2) {
     return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
   }
+  // const texts = [
+  //   "(JavaScript)",
+  //   "(TypeScript)",
+  //   "(ReactJS)",
+  //   "(NextJS)",
+  //   "(NodeJS)",
+  //   "(ExpressJS)",
+  //   "(Python)",
+  //   "(Flask)",
+  //   "(RestAPI)",
+  //   "(GraphQL)",
+  //   "(MongoDB)",
+  //   "(PostgreSQL)",
+  //   "(ML / AI)",
+  // ];
 
+  // const [currentTextIndex, setCurrentTextIndex] = useState(0);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+  //   }, 2000); // Change text every 2 seconds
+
+  //   return () => clearInterval(interval);
+  // }, [texts.length]);
   return (
     <>
       <section id="home" className="hero" ref={largeHeaderRef}>
@@ -293,6 +317,58 @@ const Home = () => {
             </div>
           </div>
         </div>
+        {/* scroll down svg */}
+        {/* <div
+          className=""
+          style={{
+            position: "absolute",
+            bottom: "0",
+            marginBottom: "22px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: 'space-between',
+            width:"96%",
+            padding:"0px -10px"
+          }}
+        >
+          <div className="ml-[20px]">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="mb-2"
+            >
+              <rect
+                x="0.5"
+                y="1.5"
+                width="15"
+                height="21"
+                rx="7.5"
+                stroke="currentColor"
+              ></rect>
+              <line
+                x1="8.5"
+                y1="5"
+                x2="8.5"
+                y2="10"
+                stroke="currentColor"
+              ></line>
+            </svg>
+            <p className="scroll-class">Scroll down</p>
+          </div>
+          <div className="">
+            <div
+              className="position-relative w-100"
+              style={{ width: "92px", height: "1rem" }}
+            >
+              <p className="text-primary-orange flip-down scroll-class">
+                {texts[currentTextIndex]}
+              </p>
+            </div>
+          </div>
+        </div> */}
       </section>
       <About />
       <Projects />

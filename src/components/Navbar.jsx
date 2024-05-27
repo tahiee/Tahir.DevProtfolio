@@ -45,7 +45,7 @@ function NavScrollExample() {
     };
   }, []);
 
-  const originalOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8,9,10];
+  const originalOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const [order, setOrder] = useState(originalOrder);
 
   const shuffleOrder = () => {
@@ -60,6 +60,17 @@ function NavScrollExample() {
   const resetOrder = () => {
     setOrder(originalOrder);
   };
+
+  // Home about text effect
+  const [isVisible, setIsVisible] = useState(false);
+  useEffect(() => {
+    const navbarItems = document.querySelectorAll(".navbar-item");
+    navbarItems.forEach((item, index) => {
+      setTimeout(() => {
+        item.classList.add("visible");
+      }, index * 100); // Staggering effect
+    });
+  }, []);
   return (
     <>
       <nav
@@ -102,17 +113,15 @@ function NavScrollExample() {
         {/* //  is just remove here to toggleMobileMenu(); */}
         <ul className="gap-4 flex justify-between items-center text-center ">
           <li
-            className="hidden lg:block cursor-pointer hover:text-emerald-400 cursorLink"
+            className="hidden lg:block cursor-pointer hover:text-emerald-400 cursorLink navbar-item transform translate-y-[-50px]"
             onClick={() => {
               gotoHome();
-              onMouseOver = { shuffleOrder };
-              onMouseOut = { resetOrder };
             }}
           >
             Home
           </li>
           <li
-            className="hidden lg:block cursor-pointer hover:text-emerald-400"
+            className="hidden lg:block cursor-pointer hover:text-emerald-400 navbar-item transform translate-y-[-70px]"
             onClick={() => {
               gotoAbout();
             }}
@@ -120,7 +129,7 @@ function NavScrollExample() {
             About
           </li>
           <li
-            className="hidden lg:block cursor-pointer hover:text-emerald-400"
+            className="hidden lg:block cursor-pointer hover:text-emerald-400 navbar-item transform translate-y-[-90px]"
             onClick={() => {
               gotoProjects();
             }}
@@ -128,7 +137,7 @@ function NavScrollExample() {
             Projects
           </li>
           <li
-            className="hidden lg:block cursor-pointer hover:text-emerald-400"
+            className="hidden lg:block cursor-pointer hover:text-emerald-400 navbar-item transform translate-y-[-110px]"
             onClick={() => {
               gotoContact();
             }}

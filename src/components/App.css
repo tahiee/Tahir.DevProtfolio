@@ -1017,4 +1017,44 @@ a {
   transition: transform 0.5s ;
   display: inline-block ;
 }
+
+/* src/Navbar.css */
+.navbar-item {
+  --tw-translate-y: -50px;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .5s;
+}
+
+.navbar-item.visible {
+  --tw-translate-y: 0px;
+  transform: translateY(var(--tw-translate-y));
+}
+
 /* navbar tahir.dev */
+
+
+/* src/MyComponent.css starts */
+/* .scroll-class{
+  font-size: 20px;
+}
+
+.text-primary-orange {
+  color: #FFA500;
+}
+
+.flip-down {
+  animation: flip-down-animation 1s ease-in-out;
+} */
+
+/* @keyframes flip-down-animation {
+  0% {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+} */
+
+/* src/MyComponent.css  end*/
