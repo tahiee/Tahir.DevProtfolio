@@ -15,6 +15,40 @@
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
 }
+.hero-img {
+  animation: morpha 5s ease-in-out infinite;
+  background-image: url(../img/hero-banner-tahir.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 3px solid #2d2e32; */
+  border: 3px solid #fff;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  height: 32rem;
+  position: relative;
+  overflow: hidden;
+  width: 26rem;
+  /* Add the following styles */
+  --s: 256px;
+  /* the size of the image */
+  --b: 10px;
+  /* the border thickness*/
+  --g: 1px;
+  /* the gap */
+  --c: #a7f3d0;
+  /* the color */
+
+  width: var(--s);
+  aspect-ratio: 1;
+  /* un comment this than the previous effect appears */
+  /* outline: calc(var(--s) / 2) solid #544b4b99; */
+  outline-offset: calc(var(--s) / -2);
+  cursor: pointer;
+  transition: 0.3s;
+  /* Set the background color to blue */
+  background-color: #000319 !important;
+  /* background-color: #fff !important; */
+}
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -263,6 +297,7 @@
   .hero-img {
     height: 23rem !important;
     width: 20rem !important;
+    background-color:#15143B !important;
   }
 
   .hero-text h1 {
@@ -694,40 +729,7 @@ li {
   margin-top: 2rem;
 }
 
-.hero-img {
-  animation: morpha 5s ease-in-out infinite;
-  background-image: url(../img/hero-banner-tahir.png);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* border: 3px solid #2d2e32; */
-  border: 3px solid #fff;
-  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  height: 32rem;
-  position: relative;
-  overflow: hidden;
-  width: 26rem;
-  /* Add the following styles */
-  --s: 256px;
-  /* the size of the image */
-  --b: 10px;
-  /* the border thickness*/
-  --g: 1px;
-  /* the gap */
-  --c: #a7f3d0;
-  /* the color */
 
-  width: var(--s);
-  aspect-ratio: 1;
-  /* un comment this than the previous effect appears */
-  /* outline: calc(var(--s) / 2) solid #544b4b99; */
-  outline-offset: calc(var(--s) / -2);
-  cursor: pointer;
-  transition: 0.3s;
-  /* Set the background color to blue */
-  background-color: #000319 !important;
-  /* background-color: #fff !important; */
-}
 
 /* hero img hover effect */
 /* .hero-img:hover {
