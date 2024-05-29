@@ -21,12 +21,15 @@ const Projects = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000, // Set the interval (in milliseconds)
+    autoplaySpeed: 3000, // Set the interval (in milliseconds)
   };
   return (
     <section id="projects" className="project">
       <div className="containers">
-        <h2 className="new-projects"> Projects</h2>
+        <h2 className="new-projects"> A small selection of 
+        <h2 className="inline"> recent projects</h2>
+        
+        </h2>
       </div>
       <div className="main-parent">
         {/* my first Project */}
@@ -36,7 +39,11 @@ const Projects = () => {
               <h3 className="text-2xl font-bold mb-4 text-[22px] mt-[5px]">
                 Nest Mart & Grocery Store
               </h3>
-              <p className="text-lg mb-4 project-para">🛒 Nest Mart & Grocery is not just another Ecommerce <br /> platform; it's a personalized shopping  experience designed  with you in mind.</p>
+              <p className="text-lg mb-4 project-para">
+                🛒 Nest Mart & Grocery is not just another Ecommerce <br />{" "}
+                platform; it's a personalized shopping experience designed with
+                you in mind.
+              </p>
             </div>
             <div className="flex justify-center items-center text-center mt-[2px]">
               <Slider className="" {...sliderSettings}>

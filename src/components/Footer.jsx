@@ -4,7 +4,7 @@ import "./App.css";
 const Footer = () => {
   return (
     <>
-      <footer class="bg-gray-800 py-20">
+      <footer class="py-20" style={{ background:"transparant",backgroundColor: "#000319" }}>
         <div className="containers mx-auto">
           <div class="footerc flex items-center justify-between">
             <h3 class="text-white text-lg">
@@ -18,7 +18,7 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <svg
-                  class="w-8 h-8 text-white"
+                  class="w-8 h-8 text-white blink"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -63,7 +63,7 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <svg
-                  class="w-8 h-8 text-white"
+                  class="w-8 h-8 text-white blink"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

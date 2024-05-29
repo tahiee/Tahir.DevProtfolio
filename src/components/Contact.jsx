@@ -9,11 +9,17 @@ const Contact = () => {
         <div className="containers">
           <div class="contact__content">
             <div class="contact__title">
-              <p>contact</p>
-              <h3>Don't be shy! Hit me up! 👇</h3>
+              <p>Contact</p>
+              <h3>
+                Don't be shy!{" "}
+                <h3 className="inline" style={{ color: "#cbacf9" }}>
+                  Hit me up!
+                </h3>{" "}
+                👇
+              </h3>
             </div>
 
-                {/* icons */}
+            {/* icons */}
             <div class="contact__icons">
               <div class="contact__icon-box">
                 <span>
@@ -61,7 +67,9 @@ const Contact = () => {
                 </span>
                 <div class="contact__info">
                   <h3>Mail</h3>
-                  <a href="">tahirkhanji007@gmail.com</a>
+                  <a href="mailto:tahirkhanji007@gmail.com">
+                    tahirkhanji007@gmail.com
+                  </a>
                 </div>
               </div>
               <div class="contact__icon-box">

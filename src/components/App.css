@@ -345,13 +345,23 @@
 /* // Media query end */
 
 /* // project section */
+
 .project {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+  background-color: #000319 !important;
+  /* background: url(../img/grid.svg); */
+  /* background: url(../img/footer-grid1.svg); */
+  /* background: url(../img//bg.png); */
+  /* background-position: center; */
+  /* background-size: cover; */
   padding: 10rem 0;
 }
-
+.new-projects h2 {
+  color: #cbacf9;
+  
+}
 .new-projects {
-  color: #147efb;
+  color: #fff;
   font-size: 2.6rem;
   text-align: center;
 }
@@ -800,7 +810,7 @@ section {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 20%;
+  height: 21%;
   background: inherit;
   background-size: cover;
   filter: blur(10px); /* Adjust the blur intensity */
@@ -1355,3 +1365,118 @@ body {
 } */
 
 /* src/MyComponent.css  end*/
+
+
+/* Getintouch css starts */
+
+/* General styles */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.p-px {
+  padding: 1px;
+}
+.rounded-lg {
+  border-radius: var(--radius, 0.5rem);
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.w-full {
+  width: 100%;
+}
+.h-12 {
+  height: 3rem;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.relative {
+  position: relative;
+}
+[role=button], button {
+  cursor: pointer;
+}
+button, input:where([type=button]), input:where([type=reset]), input:where([type=submit]) {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Button styles */
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 15rem; /* Adjust to match your design */
+  height: 3rem;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 0.5rem; /* Adjust to match your design */
+  background-color: #000319;
+  z-index: 1;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: conic-gradient(from 90deg at 50% 50%, #E2CBFF, #393BB2, #E2CBFF);
+  animation: border-animation 2s linear infinite;
+  z-index: -1;
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background-color: #0f172a; /* Inner background color */
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.button-content {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.75rem; /* Adjust padding as needed */
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  backdrop-filter: blur(64px);
+  gap: 0.5rem;
+}
+
+@keyframes border-animation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+/* Getintouch css end */
