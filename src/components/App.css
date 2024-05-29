@@ -719,16 +719,18 @@ li {
 
   width: var(--s);
   aspect-ratio: 1;
-  outline: calc(var(--s) / 2) solid #544b4b99;
+  /* un comment this than the previous effect appears */
+  /* outline: calc(var(--s) / 2) solid #544b4b99; */
   outline-offset: calc(var(--s) / -2);
   cursor: pointer;
   transition: 0.3s;
 }
 
-.hero-img:hover {
+/* hero img hover effect */
+/* .hero-img:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
-}
+} */
 
 .hero-img::before {
   content: "";
@@ -1055,28 +1057,6 @@ h4 {
 .py-20 {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
-}
-.button-85 a {
-  color: #50ac80 !important;
-}
-.button-85 {
-  padding: 0.6em 2em !important;
-  border: none;
-  outline: none;
-  background: #4a4343;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-.button-85:hover a {
-  color: black !important;
-}
-.button-85:hover {
-  background: #73ba98;
 }
 
 /* Customise */
@@ -1480,3 +1460,54 @@ button, input, optgroup, select, textarea {
 }
 
 /* Getintouch css end */
+
+/* button 64 css */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 a {
+  background-color: rgb(5, 6, 45);
+  padding: 12px 15px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover a {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 15px;
+    min-width: 100px;
+  }
+}
+/* 64 ends */

@@ -26,20 +26,28 @@ const Projects = () => {
   return (
     <section id="projects" className="project">
       <div className="containers">
-        <h2 className="new-projects"> A small selection of 
-        <h2 className="inline"> recent projects</h2>
-        
+        <h2 className="new-projects">
+          {" "}
+          A small selection of
+          <h2 className="inline"> recent projects</h2>
         </h2>
       </div>
+      <br />
       <div className="main-parent">
         {/* my first Project */}
         <div className="flex justify-center items-center text-center mt-[12px]">
           <div className="project-card">
             <div className="project-info">
-              <h3 className="text-2xl font-bold mb-4 text-[22px] mt-[5px]">
+              <h3
+                className="text-2xl font-bold mb-4 text-[22px] mt-[5px]"
+                style={{ color: "#fff" }}
+              >
                 Nest Mart & Grocery Store
               </h3>
-              <p className="text-lg mb-4 project-para">
+              <p
+                className="text-lg mb-4 project-para"
+                style={{ color: "#cbacf2" }}
+              >
                 🛒 Nest Mart & Grocery is not just another Ecommerce <br />{" "}
                 platform; it's a personalized shopping experience designed with
                 you in mind.
@@ -70,37 +78,55 @@ const Projects = () => {
               </Slider>
             </div>
             {/* View Project Link */}
-            <div>
-              <button
-                className="button-85"
-                style={{
-                  marginTop: "20px",
-                }}
-              >
-                <a
-                  href="https://nestmartgrocery.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
+            <div style={{ display: "flex",alignItems:"center",justifyContent:"center",marginTop:"8px" }}>
+              <div>
+                <button
+                  className="button-64"
+                  role="button"
+                  
                 >
-                  View App
-                </a>
-              </button>
-              <button
+                  <a
+                    href="https://todoapp-react-lovat.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    // className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
+                  >
+                    View App
+                  </a>
+                </button>
+              </div>
+              <div>
+                <button
+                  className="button-64"
+                  role="button"
+                  style={{
+                    marginLeft: "10px",
+                  }}
+                >
+                  <a
+                    href="https://github.com/tahiee/TodoApp-React-Firbase"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </button>
+              </div>
+              {/* <button
                 className="button-85"
                 style={{
                   marginLeft: "10px",
                 }}
               >
                 <a
-                  href="https://github.com/tahiee/Nest-Mart-Grocery-Reast.js-"
+                  href="https://github.com/tahiee/TodoApp-React-Firbase"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
                 >
                   GitHub
                 </a>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -109,10 +135,14 @@ const Projects = () => {
         <div className="flex justify-center items-center text-center mt-[12px]">
           <div className="project-card">
             <div className="project-info">
-              <h3 className="text-2xl font-bold mb-4 text-[22px] mt-[5px]">
+              <h3
+                className="text-2xl font-bold mb-4 text-[22px] mt-[5px]"
+                style={{ color: "#fff" }}
+              >
                 TodoApp
               </h3>
-              <p className="text-lg mb-4">
+              <br />
+              <p className="text-lg mb-4" style={{ color: "#cbacf2" }}>
                 A simple Todo App built using React - Material-UI - Firebase
               </p>
             </div>
@@ -132,23 +162,41 @@ const Projects = () => {
               </Slider>
             </div>
             {/* View Project Link */}
-            <div>
-              <button
-                className="button-85"
-                style={{
-                  marginTop: "20px",
-                }}
-              >
-                <a
-                  href="https://todoapp-react-lovat.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
+            <div style={{ display: "flex",alignItems:"center",justifyContent:"center",marginTop:"8px" }}>
+              <div>
+                <button
+                  className="button-64"
+                  role="button"
+                  
                 >
-                  View App
-                </a>
-              </button>
-              <button
+                  <a
+                    href="https://todoapp-react-lovat.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    // className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
+                  >
+                    View App
+                  </a>
+                </button>
+              </div>
+              <div>
+                <button
+                  className="button-64"
+                  role="button"
+                  style={{
+                    marginLeft: "10px",
+                  }}
+                >
+                  <a
+                    href="https://github.com/tahiee/TodoApp-React-Firbase"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </button>
+              </div>
+              {/* <button
                 className="button-85"
                 style={{
                   marginLeft: "10px",
@@ -162,7 +210,7 @@ const Projects = () => {
                 >
                   GitHub
                 </a>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

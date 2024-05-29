@@ -110,7 +110,7 @@ const Contact = () => {
                 <div class="contact__info">
                   <h3>Whatsapp</h3>
                   <a href="https://wa.me/message/OS47LHV72MO5P1">
-                    +92-305209595-1
+                    +92305-2095951
                   </a>
                 </div>
               </div>
