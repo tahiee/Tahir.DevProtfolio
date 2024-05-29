@@ -725,9 +725,10 @@ li {
   cursor: pointer;
   transition: 0.3s;
   /* Set the background color to blue */
-  background-color: transparent !important;
+  background-color: #000319 !important;
   /* background-color: #fff !important; */
 }
+
 /* hero img hover effect */
 /* .hero-img:hover {
   outline: var(--b) solid var(--c);
