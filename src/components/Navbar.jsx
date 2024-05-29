@@ -79,7 +79,7 @@ function NavScrollExample() {
         } ${scrolling ? "bg-emerald-200 text-black" : ""}`}
       >
         <h3
-          className="hover:text-emerald-400 cursor-pointe cursorLinkr"
+          className="cursor-pointe cursorLinkr home-button"
           onClick={() =>
             scroll.scrollToTop(
               { smooth: true },
@@ -113,7 +113,7 @@ function NavScrollExample() {
         {/* //  is just remove here to toggleMobileMenu(); */}
         <ul className="gap-4 flex justify-between items-center text-center ">
           <li
-            className="hidden lg:block cursor-pointer hover:text-emerald-400 cursorLink navbar-item transform translate-y-[-50px]"
+            className="hidden lg:block cursor-pointer cursorLink navbar-item transform translate-y-[-50px] home-button"
             onClick={() => {
               gotoHome();
             }}
@@ -121,7 +121,7 @@ function NavScrollExample() {
             Home
           </li>
           <li
-            className="hidden lg:block cursor-pointer hover:text-emerald-400 navbar-item transform translate-y-[-70px]"
+            className="hidden lg:block cursor-pointer  navbar-item transform translate-y-[-70px] home-button"
             onClick={() => {
               gotoAbout();
             }}
@@ -129,7 +129,7 @@ function NavScrollExample() {
             About
           </li>
           <li
-            className="hidden lg:block cursor-pointer hover:text-emerald-400 navbar-item transform translate-y-[-90px]"
+            className="hidden lg:block cursor-pointer  navbar-item transform translate-y-[-90px] home-button"
             onClick={() => {
               gotoProjects();
             }}
@@ -137,7 +137,7 @@ function NavScrollExample() {
             Projects
           </li>
           <li
-            className="hidden lg:block cursor-pointer hover:text-emerald-400 navbar-item transform translate-y-[-110px]"
+            className="hidden lg:block cursor-pointer  navbar-item transform translate-y-[-110px] home-button"
             onClick={() => {
               gotoContact();
             }}
