@@ -701,7 +701,8 @@ li {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 3px solid #2d2e32;
+  /* border: 3px solid #2d2e32; */
+  border: 3px solid #fff;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   height: 32rem;
   position: relative;
@@ -724,8 +725,10 @@ li {
   outline-offset: calc(var(--s) / -2);
   cursor: pointer;
   transition: 0.3s;
+   /* Set the background color to blue */
+   background-color: #000319 !important;
+   /* background-color: #fff !important; */
 }
-
 /* hero img hover effect */
 /* .hero-img:hover {
   outline: var(--b) solid var(--c);
