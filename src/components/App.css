@@ -358,7 +358,6 @@
 }
 .new-projects h2 {
   color: #cbacf9;
-  
 }
 .new-projects {
   color: #fff;
@@ -476,7 +475,7 @@ a:-webkit-any-link {
 }
 
 .text-side p {
-  color: #D4DBEF;
+  color: #d4dbef;
   /* color: #767676; */
   font-family: Mulish, sans-serif;
   font-size: 25px;
@@ -725,9 +724,9 @@ li {
   outline-offset: calc(var(--s) / -2);
   cursor: pointer;
   transition: 0.3s;
-   /* Set the background color to blue */
-   background-color: #000319 !important;
-   /* background-color: #fff !important; */
+  /* Set the background color to blue */
+  background-color: transparent !important;
+  /* background-color: #fff !important; */
 }
 /* hero img hover effect */
 /* .hero-img:hover {
@@ -1349,7 +1348,6 @@ body {
 
 /* src/MyComponent.css  end*/
 
-
 /* Getintouch css starts */
 
 /* General styles */
@@ -1378,15 +1376,23 @@ a {
 .relative {
   position: relative;
 }
-[role=button], button {
+[role="button"],
+button {
   cursor: pointer;
 }
-button, input:where([type=button]), input:where([type=reset]), input:where([type=submit]) {
+button,
+input:where([type="button"]),
+input:where([type="reset"]),
+input:where([type="submit"]) {
   -webkit-appearance: button;
   background-color: transparent;
   background-image: none;
 }
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: inherit;
   font-feature-settings: inherit;
   font-variation-settings: inherit;
@@ -1416,19 +1422,19 @@ button, input, optgroup, select, textarea {
 }
 
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: conic-gradient(from 90deg at 50% 50%, #E2CBFF, #393BB2, #E2CBFF);
+  background: conic-gradient(from 90deg at 50% 50%, #e2cbff, #393bb2, #e2cbff);
   animation: border-animation 2s linear infinite;
   z-index: -1;
 }
 
 .button::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 2px;
@@ -1455,10 +1461,10 @@ button, input, optgroup, select, textarea {
 
 @keyframes border-animation {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
