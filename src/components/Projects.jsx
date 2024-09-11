@@ -47,15 +47,15 @@ const Projects = () => {
                 className="text-2xl font-bold mb-4 text-[22px] mt-[5px]"
                 style={{ color: "#fff" }}
               >
-                EventMe : An Event Management App
+                EventMe : Management App
               </h3>
               <p
                 className="text-lg mb-4 project-para"
                 style={{ color: "#cbacf2" }}
               >
-                EventMe is a Next.js-based event management app <br /> Tech
-                used: MongoDB, Clerk, UploadThing, Stripe, and dynamic event
-                metadata handling.
+                EventMe is a Next.js-based <br /> event management app Tech:
+                MongoDB,<br /> Clerk, UploadThing, Stripe, and dynamic event metadata
+                handling.
               </p>
             </div>
             <div className="flex justify-center items-center text-center mt-[2px]">
@@ -150,8 +150,8 @@ const Projects = () => {
                 className="text-lg mb-4 project-para"
                 style={{ color: "#cbacf2" }}
               >
-                🛒 Nest Mart & Grocery is not just another Ecommerce <br />{" "}
-                platform; its a personalized shopping experience designed with
+                🛒 Nest Mart & Grocery is not <br />just another Ecommerce
+                platform; its a <br />personalized shopping experience designed with
                 you in mind.
               </p>
             </div>

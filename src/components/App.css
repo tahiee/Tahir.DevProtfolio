@@ -482,7 +482,8 @@ a:-webkit-any-link {
 .img-side__main-img {
   border-radius: 1.7rem;
   height: 28rem;
-  width: 35rem;
+  width: 40rem;
+  /* width: 35rem; */
 }
 
 .text-side {

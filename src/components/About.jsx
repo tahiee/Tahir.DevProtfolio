@@ -1,6 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import React from "react";
 import "./App.css";
-import aboutDesk from "../img/desk img.jpg";
+import aboutDesk from "../img/devpic.jpg";
+// import aboutDesk from "../img/desk img.jpg";
 import Developerimg from "../img/developer.png";
 import FrontEndImg from "../img/fronendImg.svg";
 
