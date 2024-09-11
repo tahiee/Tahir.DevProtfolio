@@ -1070,6 +1070,7 @@ h4 {
   justify-content: center;
   align-items: center;
   gap: 90px;
+  
 }
 .gap-4 {
   gap: 20px !important;
@@ -1139,9 +1140,9 @@ a {
 
 /* Loading css starts */
 /* src/LoadingAnimation.css */
-/* body {
-  background: #000 !important;
-} */
+body {
+  background-color: #000319 !important;
+}
 
 #load {
   text-align: center;

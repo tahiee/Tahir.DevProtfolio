@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -11,6 +12,10 @@ import Ecimg3 from "../img/Projects/todo-img/ecommer3.png";
 import Ecimg4 from "../img/Projects/todo-img/ecommer4.png";
 import Ecimg5 from "../img/Projects/todo-img/ecommer5.png";
 import Ecimg6 from "../img/Projects/todo-img/ecommer6.png";
+import EventMe1 from "../img/Projects/eventme/em1.png";
+import EventMe2 from "../img/Projects/eventme/em2.png";
+import EventMe3 from "../img/Projects/eventme/em4.png";
+import EventMe4 from "../img/Projects/eventme/sm3.png";
 import "./App.css";
 
 const Projects = () => {
@@ -33,8 +38,105 @@ const Projects = () => {
         </h2>
       </div>
       <br />
-      <div className="main-parent">
+      <div className="main-parent flex-wrap">
         {/* my first Project */}
+        <div className="flex justify-center items-center text-center mt-[12px]">
+          <div className="project-card">
+            <div className="project-info">
+              <h3
+                className="text-2xl font-bold mb-4 text-[22px] mt-[5px]"
+                style={{ color: "#fff" }}
+              >
+                EventMe : An Event Management App
+              </h3>
+              <p
+                className="text-lg mb-4 project-para"
+                style={{ color: "#cbacf2" }}
+              >
+                EventMe is a Next.js-based event management app <br /> Tech
+                used: MongoDB, Clerk, UploadThing, Stripe, and dynamic event
+                metadata handling.
+              </p>
+            </div>
+            <div className="flex justify-center items-center text-center mt-[2px]">
+              <Slider className="" {...sliderSettings}>
+                <div>
+                  <img className="" src={EventMe1} alt="EventME" />
+                </div>
+                <div>
+                  <img src={EventMe2} alt="EventME" />
+                </div>
+                <div>
+                  <img src={EventMe1} alt="EventME" />
+                </div>
+                <div>
+                  <img src={EventMe3} alt="EventME" />
+                </div>
+                <div>
+                  <img src={EventMe4} alt="EventME" />
+                </div>
+
+                {/* Add more slides as needed */}
+              </Slider>
+            </div>
+            {/* View Project Link */}
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: "8px",
+              }}
+            >
+              <div>
+                <button className="button-64" role="button">
+                  <a
+                    href="https://eventme-flame.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    // className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
+                  >
+                    View App
+                  </a>
+                </button>
+              </div>
+              <div>
+                <button
+                  className="button-64"
+                  role="button"
+                  style={{
+                    marginLeft: "10px",
+                  }}
+                >
+                  <a
+                    href="https://github.com/tahiee/eventMe_Plaform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </button>
+              </div>
+              {/* <button
+                className="button-85"
+                style={{
+                  marginLeft: "10px",
+                }}
+              >
+                <a
+                  href="https://github.com/tahiee/TodoApp-React-Firbase"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"
+                >
+                  GitHub
+                </a>
+              </button> */}
+            </div>
+          </div>
+        </div>
+
+        {/* my Second Project */}
         <div className="flex justify-center items-center text-center mt-[12px]">
           <div className="project-card">
             <div className="project-info">
@@ -78,13 +180,16 @@ const Projects = () => {
               </Slider>
             </div>
             {/* View Project Link */}
-            <div style={{ display: "flex",alignItems:"center",justifyContent:"center",marginTop:"8px" }}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: "8px",
+              }}
+            >
               <div>
-                <button
-                  className="button-64"
-                  role="button"
-                  
-                >
+                <button className="button-64" role="button">
                   <a
                     href="https://nestmartgrocery.vercel.app/"
                     target="_blank"
@@ -131,7 +236,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* my sencond project */}
+        {/* my Third project */}
         <div className="flex justify-center items-center text-center mt-[12px]">
           <div className="project-card">
             <div className="project-info">
@@ -162,13 +267,16 @@ const Projects = () => {
               </Slider>
             </div>
             {/* View Project Link */}
-            <div style={{ display: "flex",alignItems:"center",justifyContent:"center",marginTop:"8px" }}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: "8px",
+              }}
+            >
               <div>
-                <button
-                  className="button-64"
-                  role="button"
-                  
-                >
+                <button className="button-64" role="button">
                   <a
                     href="https://todoapp-react-lovat.vercel.app/"
                     target="_blank"
