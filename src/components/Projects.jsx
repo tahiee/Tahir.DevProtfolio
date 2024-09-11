@@ -49,7 +49,7 @@ const Projects = () => {
                 style={{ color: "#cbacf2" }}
               >
                 🛒 Nest Mart & Grocery is not just another Ecommerce <br />{" "}
-                platform; it's a personalized shopping experience designed with
+                platform; its a personalized shopping experience designed with
                 you in mind.
               </p>
             </div>
@@ -86,7 +86,7 @@ const Projects = () => {
                   
                 >
                   <a
-                    href="https://todoapp-react-lovat.vercel.app/"
+                    href="https://tahirdevportfolio.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     // className="no-underline text-[15px] text-blue-500 underline hover:text-blue-700"

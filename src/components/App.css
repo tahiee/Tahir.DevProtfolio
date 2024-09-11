@@ -1139,9 +1139,9 @@ a {
 
 /* Loading css starts */
 /* src/LoadingAnimation.css */
-body {
+/* body {
   background: #000 !important;
-}
+} */
 
 #load {
   text-align: center;
@@ -1523,3 +1523,6 @@ textarea {
   }
 }
 /* 64 ends */
+
+/* mecreative css starts  */
+

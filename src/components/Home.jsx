@@ -11,6 +11,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import About from "./About";
 import gsap from "gsap";
+import MeCreative from "./MeCreative";
 
 const Home = () => {
   const largeHeaderRef = useRef(null);
@@ -376,6 +377,7 @@ const Home = () => {
         </div> */}
       </section>
       <About />
+      {/* <MeCreative/> */}
       <Projects />
       <Contact />
     </>
