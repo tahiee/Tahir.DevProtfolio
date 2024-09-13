@@ -252,7 +252,7 @@ const Home = () => {
                     aria-label="linkedin"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://www.linkedin.com/in/m-tahir-khan-niazi-10730a1b4/"
+                    href="https://www.linkedin.com/in/m-tahir-khan-10730a1b4/"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
